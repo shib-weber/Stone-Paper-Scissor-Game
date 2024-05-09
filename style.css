@@ -28,6 +28,9 @@ body{
     width: 60px;
 }
 .btngrp{
+    position: absolute;
+    top:90px;
+    height: inherit;
     margin-top: 1rem;
    display: flex;
    justify-content: center;
@@ -87,3 +90,4 @@ body{
     cursor:pointer;
     border-color:red;
 }
+

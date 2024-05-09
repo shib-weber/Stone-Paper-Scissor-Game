@@ -1,0 +1,89 @@
+body{
+    background-color:#23242a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-left: 3rem;
+}
+.container{
+    position: relative;
+    overflow: hidden;
+    top: 50%;
+    height: 200px;
+    width: 300px;
+    background-color: #1c1c1c;
+    border: 20px;
+    border-radius: 2rem;
+}
+.container h2{
+    margin-top: 3rem;
+    color: aqua;
+    text-align: center;
+}
+#bt1,#bt2{
+    background-color: aqua;
+    border-radius: 1rem;
+    height: 40px;
+    width: 60px;
+}
+.btngrp{
+    margin-top: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5rem;
+}
+.container::before{
+    content: "";
+    position: absolute;
+    margin-left: -50%;
+    top: -50%;
+    height: 200px;
+    width: 300px;
+    background: linear-gradient(0deg,transparent,pink,red);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+.container::after{
+    content: "";
+    position: absolute;
+    margin-left: -50%;
+    top: -50%;
+    height: 200px;
+    width: 300px;
+    background: linear-gradient(0deg,transparent,pink,red);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform :rotate(0deg);
+    }
+    100%
+    {
+        transform:rotate(360deg);
+    }
+}
+.cc{
+    position: absolute;
+    inset:10px;
+    background: #1c1c1c;
+    border-radius: 2rem;
+    z-index: 10;
+    padding: 50px , 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bt2:hover{
+    cursor:pointer;
+    border-color:red;
+}
+#bt1:hover{
+    cursor:pointer;
+    border-color:red;
+}

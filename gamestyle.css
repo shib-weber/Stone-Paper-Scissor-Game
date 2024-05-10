@@ -1,0 +1,64 @@
+body{
+    background-color:#23242a;
+}
+h2{
+    font-size: 30PX;
+    margin-top: 1%;
+    color: aqua;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+img{
+    padding: 10px;
+    background-color: aqua;
+    position: relative;
+    margin-top: 3%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 3rem;
+}
+img:hover{
+    cursor: pointer;
+    background-color: chartreuse;
+}
+.score{
+    margin-top: -2rem;
+    font-size: 30PX;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.points{
+    margin-top: -2rem;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+}
+.message{
+    height: 10vh;
+    color: aqua;
+    margin-top: 2rem;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-size: 20px;
+}
+.win-g{
+        color: chartreuse;
+        letter-spacing: 0.1em;
+    
+}
+.lost-g{
+        color:crimson;
+        letter-spacing: 0.1em;
+}

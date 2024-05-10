@@ -6,6 +6,7 @@ const wp= d.getBoundingClientRect();
 const nb= c.getBoundingClientRect();
 
 b.addEventListener("click",()=>{
+    location.href="game.html"
 })
 c.addEventListener("mouseover",()=>{
     const i=Math.floor(Math.random()*300)+1;

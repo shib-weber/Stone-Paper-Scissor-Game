@@ -1,0 +1,74 @@
+body{
+    background-color:#23242a;
+    color: aqua;
+    text-align: center;
+}
+h1{
+    margin-top: 2rem;
+    text-align: center;
+    letter-spacing: 0.5em;
+}
+
+.rbt{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.lbt{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.abt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+#bt5{
+    margin-left: 40%;
+    margin-top: 1.5rem;
+}
+
+button{
+    border-color: aqua;
+    box-shadow: 50px;
+    position: relative;
+    height: 60px;
+    width: 200px;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:transparent;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+span{
+    left: 0;
+    height: 100%;
+    z-index: -1;
+    width: 0;
+    background: aqua;
+    bottom: 0;
+    position:absolute;
+    transition: 1s;
+}
+#bt1:hover span{
+    width: 100%;
+}
+#bt2:hover span{
+    width: 100%;
+}
+#bt3:hover span{
+    width: 100%;
+}
+#bt4:hover span{
+    width: 100%;
+}
+#bt5:hover span{
+    width: 100%;
+}

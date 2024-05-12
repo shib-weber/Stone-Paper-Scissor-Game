@@ -62,6 +62,62 @@ img:hover{
         color:crimson;
         letter-spacing: 0.1em;
 }
+.pop{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    height: 220px;
+    width: 300px;
+    background-color: black;
+    border-radius: 2rem;
+    border: 5px solid greenyellow;
+    transform: scale(0.1);
+    visibility: hidden;
+    transition: 2s;
+}
+h1,h3{
+    text-align: center;
+    color: aqua;
+    margin-top: 0rem;
+}
+#hm,#re{
+    height: 30px;
+    width: 50px;
+    border-radius: 2rem;
+    border: 5px solid greenyellow;
+}
+.btns{
+    margin-top: -1rem;
+    margin-left: 3rem;
+    display: flex;
+    gap:3rem;
+}
+.scorepop{
+    color: aqua;
+    margin-top: -2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.pointspop{
+    color: aqua;
+    margin-top: -1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.popUp{
+    #pop{
+        margin-top: 12rem;
+        transform: scale(1);
+        visibility: visible;
+    }
+    #game{
+        visibility: hidden;
+    }
+}
 @media(max-width:600px){
     body{
        margin-top: 30%;
@@ -76,5 +132,9 @@ img:hover{
         height: 80px;
         width: 80px;
         border: 1rem;
+    }
+    #pop{
+        scale: 0.8;
+        left: 1.5rem;
     }
 }

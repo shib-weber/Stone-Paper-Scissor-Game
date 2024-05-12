@@ -2,24 +2,75 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #23242a;
+}
+#f{
+    position: absolute;
+    margin-left: 4rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 200px;
+    height: 100px;
+    border-radius: 1rem;
+    border: 20px solid yellowgreen;
+    color:yellowgreen;
+    background:transparent;
+    font-size:larger;
 }
 .pop{
     height: 200px;
     width: 300px;
     background-color: #1c1c1c;
     border-radius: 2rem;
+    border: 5px solid greenyellow;
+    transform: scale(0.1);
+    visibility: hidden;
+    transition: 2s;
 }
-h1{
+h1,h3{
     text-align: center;
     color: chartreuse;
+    margin-top: 0rem;
 }
 img{
     height: 40px;
     width: 60px;
     border-radius: 2rem;
+    border: 5px solid greenyellow;
 }
 .btns{
+    
+    margin-top: -1rem;
+    margin-left: 4rem;
     display: flex;
-    justify-self: center;
     gap:3rem;
+}
+.score{
+    color: aqua;
+    margin-top: -2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.points{
+    color: aqua;
+    margin-top: -1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.popUp{
+    #pop{
+        margin-top: 12rem;
+        transform: scale(1);
+        visibility: visible;
+    }
+    #f{
+        visibility: hidden;
+    }
 }

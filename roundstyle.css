@@ -72,3 +72,31 @@ span{
 #bt5:hover span{
     width: 100%;
 }
+@media (max-width:600px) {
+    h1{
+        color: chartreuse;
+    }
+    button{
+        width: 150px;
+        color: aqua;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:0rem;
+    }
+    .rbt{
+        gap: 1rem;
+    }
+    .lbt{
+        gap: 1rem;
+    }
+    .abt{
+        gap: 1rem;
+    }
+    #bt5{
+        margin-left: 0;
+    }
+}

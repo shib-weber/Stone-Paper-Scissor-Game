@@ -90,4 +90,22 @@ body{
     cursor:pointer;
     border-color:red;
 }
+@media(max-width:600px){
+    .container{
+        position: relative;
+        overflow: hidden;
+        top: 50%;
+        height: 200px;
+        width: 300px;
+        background-color: #1c1c1c;
+        border: 20px;
+        border-radius: 2rem;
+    }
+    .container h2{
+        margin-top: 3rem;
+        color:chartreuse;
+        text-align: center;
+    }
+
+}
 

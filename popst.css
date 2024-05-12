@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pop{
+    height: 200px;
+    width: 300px;
+    background-color: #1c1c1c;
+    border-radius: 2rem;
+}
+h1{
+    text-align: center;
+    color: chartreuse;
+}
+img{
+    height: 40px;
+    width: 60px;
+    border-radius: 2rem;
+}
+.btns{
+    display: flex;
+    justify-self: center;
+    gap:3rem;
+}
